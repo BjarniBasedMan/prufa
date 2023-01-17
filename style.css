@@ -1,10 +1,11 @@
 body{
 background: rgb(195, 195, 255);
 color: #000000;
-
+ margin: 35px;
+}
   h1{
+   ;color: blue;
     ;border-color: white;
     ;border-style: solid;
-  ;border-width: 1cm;
+  ;border-width: 1pixel;
   }
-}
