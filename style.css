@@ -1,11 +1,13 @@
 body{
-background: rgb(229, 229, 255);
-color: #000000;
- margin: 35px;
+  max-width: 1000px;
+  margin: 0 auto;  
+  background: rgb(229, 229, 255);
+  color: #000000;
+  
 }
-  h1{
-   ;color: blue;
-    ;border-color: white;
-    ;border-style: solid;
-  ;border-width: 1pixel;
-  }
+h1{
+  color: blue;
+  border-color: white;
+  border-style: solid;
+  border-width: 1pixel;
+}
