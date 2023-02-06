@@ -11,3 +11,7 @@ h1{
   border-style: solid;
   border-width: 1pixel;
 }
+img { 
+  max-width:100%;
+  height: auto;
+}
