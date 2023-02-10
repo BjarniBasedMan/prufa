@@ -3,6 +3,12 @@ body{
   margin: 0 auto;  
   background: rgb(229, 229, 255);
   color: #000000;
+  display: grid;
+  grid-template-areas: 
+  
+  
+  
+  ;
   
 }
 h1{
@@ -43,3 +49,4 @@ img {
     grid-gap: 2em;
   }
 }
+
