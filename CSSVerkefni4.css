@@ -1,13 +1,14 @@
 
 body{
-    max-width: 1000px;
-    margin: 0 auto;  
-    background: rgb(229, 229, 255);
-    color: #000000;
     display: grid;
-    
-    
-  }
+grid-template-areas: 
+"h h h  h"
+"n n n  n"
+"a a a a"
+"v v v v"
+"ha ha ha ha"
+"f f f f "
+}
 
 
 
@@ -38,7 +39,7 @@ body{
 
 }
 .adal{
-    grid-area: ha;
+    grid-area: a;
     background-color: coral;
 }
 .haegri{
@@ -52,7 +53,19 @@ body{
     justify-content: center;
     background-color: deeppink;
 }
-  @media screen and (min-width:768px){
+@media screen and (min-width:600px){
+    body{
+        display: grid;
+    grid-template-areas: 
+    "h h h  h"
+    "v n n  n"
+    "v a a  ha"
+    "f f f f "
+    }
+}
+
+
+@media screen and (min-width:768px){
     body{
         display: grid;
     grid-template-areas: 
