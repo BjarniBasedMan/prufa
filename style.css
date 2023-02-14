@@ -8,6 +8,7 @@ body{
   background: rgb(229, 229, 255);
   color: #000000;
   display: grid;
+  
  
   
 }
@@ -23,7 +24,7 @@ img {
 }
 
 .wrapper div{
-  background-color: rgb(171, 237, 237);  
+  background-color: rgba(171, 237, 237, 0);  
 }
 
 .wrapper{
