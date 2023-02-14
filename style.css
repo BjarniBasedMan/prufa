@@ -1,14 +1,14 @@
+html{
+scroll-behavior: smooth;
+}
+
 body{
   max-width: 1000px;
   margin: 0 auto;  
   background: rgb(229, 229, 255);
   color: #000000;
   display: grid;
-  grid-template-areas: 
-  
-  
-  
-  ;
+ 
   
 }
 h1{
@@ -48,5 +48,21 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em;
   }
+.upp{
+  width: 40px;
+  height:40px;
+  bottom:50px;
+  right:50px;
+  background-color: rgb(249, 141, 74);
+  position: fixed;
+border-radius: 50%;
+color:white;
+font-size:2em;
+text-align: center;}
+
+
+
+
+
 }
 
