@@ -5,7 +5,7 @@ html{
 body{
       max-width: 1000px;
       margin: 0 auto;  
-      background: rgb(229, 229, 255);
+      background: rgb(248, 200, 160);
       color: #000000;
       display: grid;
     grid-template-areas: 
@@ -20,7 +20,10 @@ img{
     max-width: 100%;
     height: auto;
 }
-
+video{
+    max-width: 100%;
+    height: auto
+}
 
 
 .header{
@@ -51,6 +54,7 @@ img{
 .adal{
     grid-area: a;
     background-color: coral;
+    
 }
 .haegri{
     grid-area: ha;
@@ -61,8 +65,16 @@ img{
 grid-area:m1;
 
 }
-
-
+.video1{
+    grid-area:v1;
+}
+.lag{
+    grid-area: l;
+}
+.greining{
+    grid-area: gr;
+    background-color: indianred;
+}
 .fotur{
     grid-area: f;
     display: grid;
@@ -73,7 +85,7 @@ grid-area:m1;
     body{
         max-width: 1000px;
         margin: 0 auto;  
-        background: rgb(229, 229, 255);
+        background: rgb(246, 177, 121);
         color: #000000;
         display: grid;
     grid-template-areas: 
@@ -89,15 +101,21 @@ grid-area:m1;
     body{ 
         max-width: 1000px;
         margin: 0 auto;  
-        background: rgb(229, 229, 255);
+        background: rgb(234, 154, 89);
         color: #000000;
         display: grid;
         grid-template-columns: repeat(5,1fr);
     grid-template-areas: 
     "h h h h h"
+    "l l l l l"
     "n n n n n"
     "v a a ha ha"
+    "v1 v1 v1 ha ha"
+    "gr gr gr ha ha"
+    "gr gr gr ha ha"
     "m1 m1 m1 ha ha"
+    ;
+    gap: 5px;
 }
 
 
