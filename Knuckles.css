@@ -30,6 +30,17 @@ video{
     height: auto
 }
 
+.upp{
+    width: 40px;
+    height:40px;
+    bottom:50px;
+    right:50px;
+    background-color: rgb(74, 88, 249);
+    position: fixed;
+  border-radius: 50%;
+  color:white;
+  font-size:2em;
+  text-align: center;}
 
 .header{
     grid-area: h;
