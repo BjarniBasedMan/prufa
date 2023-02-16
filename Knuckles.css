@@ -32,8 +32,10 @@ video{
     justify contents center;
     background-color: rgb(171, 237, 237); 
     grid-gap: 2em;
-     
+    font-family: "roboto condensed", sans-serif;
 }
+     
+
 .navbar{
     grid-area: n;
     /* height: 3em; */
