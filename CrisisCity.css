@@ -101,6 +101,7 @@ grid-area:m1;
     grid-template-areas: 
     "h h m1 m1"
     "l l l l"
+    "a a a a"
     ;
 }
 }
