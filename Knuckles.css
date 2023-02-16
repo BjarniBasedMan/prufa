@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html{
     scroll-behavior: smooth;
     }
@@ -16,6 +18,9 @@ body{
     "ha ha ha ha"
     "f f f f "
 }
+h1{
+    font-family: 'Bebas Neue'; 
+}
 img{
     max-width: 100%;
     height: auto;
@@ -32,7 +37,7 @@ video{
     justify contents center;
     background-color: rgb(171, 237, 237); 
     grid-gap: 2em;
-    font-family: "roboto condensed", sans-serif;
+   
 }
      
 
