@@ -99,6 +99,8 @@ grid-area:m1;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "h h m1 m1";
+    "h h m1 m1"
+    "l l l l"
+    ;
 }
 }
