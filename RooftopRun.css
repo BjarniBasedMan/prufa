@@ -86,7 +86,7 @@ grid-area:m1;
 }
 .greining{
     grid-area: gr;
-    background-color: indianred;
+    background-color: rgb(143, 194, 108);
 }
 .fotur{
     grid-area: f;
@@ -118,9 +118,10 @@ grid-area:m1;
     grid-template-areas: 
     "h h h h h"
     "l l l l l"
-    "hva hva hva a a"
-    "v v v1 v1 v1"
-    " ha ha m1 m1 m1"
+    "hva hva hva hva hva"
+    "v v v v1 v1"
+    " ha ha ha m1 m1"
+    "gr gr gr gr m2"
 
     ;
     gap: 5px;
